@@ -1,0 +1,15 @@
+/Users/kabisa_03/C--codewars/Calculator/bin/Debug/net10.0/Calculator
+/Users/kabisa_03/C--codewars/Calculator/bin/Debug/net10.0/Calculator.deps.json
+/Users/kabisa_03/C--codewars/Calculator/bin/Debug/net10.0/Calculator.runtimeconfig.json
+/Users/kabisa_03/C--codewars/Calculator/bin/Debug/net10.0/Calculator.dll
+/Users/kabisa_03/C--codewars/Calculator/bin/Debug/net10.0/Calculator.pdb
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/Calculator.AssemblyInfoInputs.cache
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/Calculator.AssemblyInfo.cs
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/Calculator.sourcelink.json
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/Calculator.dll
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/refint/Calculator.dll
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/Calculator.pdb
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/Calculator.genruntimeconfig.cache
+/Users/kabisa_03/C--codewars/Calculator/obj/Debug/net10.0/ref/Calculator.dll

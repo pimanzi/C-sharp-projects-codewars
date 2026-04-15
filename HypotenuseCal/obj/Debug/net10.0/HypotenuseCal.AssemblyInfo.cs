@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HypotenuseCal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2efb90817dafc48883a2bce2af5415c3005fa0cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce014cc828f2fc0c494d588848dc6f21a5acfc27")]
 [assembly: System.Reflection.AssemblyProductAttribute("HypotenuseCal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HypotenuseCal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
