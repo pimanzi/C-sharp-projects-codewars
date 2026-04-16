@@ -9,24 +9,35 @@ public class Program
 {
    public static void Main(string[] args)
    {
-      Console.WriteLine("Welcome to Modern Task Manager App , here is the Menu");
-      Console.WriteLine("Input 1 for creating a task");
-      Console.WriteLine("Input 2 for removing a task");
-      Console.WriteLine("Input 3 for quitting the application");
       
-      Console.Write("What do you want to do: " );
+       bool on = true;
+       
+       while (on){ 
+           Console.WriteLine("Modern Task Manager App , here is the Menu");
+           Console.WriteLine("Input 1 for creating a task");
+           Console.WriteLine("Input 2 for removing a task");
+           Console.WriteLine("Input 3 for quitting the application");
       
-      string input = Console.ReadLine();
-      while (!ConsoleUI.CheckInput(input))
-      {
-        Console.WriteLine("Please choose an option from menu"); 
-        Console.Write("What do you want to do: " );
-        input = Console.ReadLine();
+           Console.Write("What do you want to do: " );
+      
+           string input = Console.ReadLine();
+           
+           while (!ConsoleUI.CheckInput(input))
+           {
+               Console.WriteLine("Please choose an option from menu"); 
+               Console.Write("What do you want to do: " );
+               input = Console.ReadLine();
         
-      }
+           }
 
-      int actionInput = int.Parse(input);
-      ConsoleUI.Action(actionInput);
+           if (input == "3")
+           {
+               on = false;
+           }
+
+           int actionInput = int.Parse(input);
+           ConsoleUI.Action(actionInput);}
+     
       
    }
 }

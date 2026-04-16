@@ -37,12 +37,12 @@ private static string[] statusList = { "todo", "inProgress", "completed" };
                 while  (!CheckInput(title, status))
             {
                 Console.WriteLine("Please enter title with atleast 1 character and a valid status (todo,  inProgress, completed)");
-                Console.Write("Enter task title");
+                Console.Write("Enter task title: ");
                 title = Console.ReadLine();
-                Console.Write("Enter task status");
+                Console.Write("Enter task status: ");
                 status = Console.ReadLine();
-            } 
-                if (status == "todo")
+            }
+                    if (status == "todo")
                     {
                         TaskManager.AddTask(title, Status.todo);
                     }
@@ -56,8 +56,16 @@ private static string[] statusList = { "todo", "inProgress", "completed" };
                     }
 
                     break;
+            case 2:
+                Console.Write("Enter the id of the task to delete: ");
+                string input = Console.ReadLine();
+                TaskManager.RemoveTask(input);
+                break;
                 
-                default:
+            case 3: 
+                Console.Write("Thanks for using our application");
+                break;
+            default:
                     Console.WriteLine("Currently working on other steps");
                     break;
                 

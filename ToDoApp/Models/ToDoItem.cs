@@ -17,9 +17,9 @@ public class ToDoItem
     public ToDoItem(string title, Status status, DateTime date, Guid  id)
     {
         this.Title = title;
-        this._status = status;
+        this.Status = status;
         this._date = date;
-        this._id = id;
+        this.Id = id.ToString();
     }
 
     public string Title
@@ -44,7 +44,7 @@ public class ToDoItem
     }
 
     public DateTime Date { get; }
-    public int Id { get; }
+    public string Id { get; set; }
 
     public  override string ToString()
     {
